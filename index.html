@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device=device-width, initial-scale=1">
+        <title>Workout Random Selector</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="name">
+            <h1>Workout Random Generator</h1>
+        </div>
+        <section id="welcomeNav">
+            <div id="welcome"></div>
+            <nav>
+                <a href="#monthOne">Month One</a>
+                <a href="#monthTwo">Month Two</a>
+                <a href="#recovery">Recovery</a>
+                <a href="#gymWorkout">Gym</a>
+            </nav>
+        </section>
+        <section id="insanity">
+            <div class="workout">
+                <h2 id="monthOne">Month One Insanity workouts</h2>
+                <p>These workouts are if you haven't worked out for a while.</p>
+                <button id="monthOneButton">Press Here</button>
+            </div>
+            <div class="workout">
+                <h2 id="monthTwo">Month Two Insanity workouts</h2>
+                <p>
+                    These workouts are for when you get used to month one workout, these workouts will make you push
+                alot harder.
+                </p>
+                <button id="monthTwoButton">Press Here</button>
+            </div>
+            <div class="workout">
+                <h2 id="recovery">Recovery</h2>
+                <p>These workout aids to improve recovery rates, so you can get back to other the workouts.</p>
+                <button id="recoveryButton">Press Here</button>
+            </div>
+        </section>
+        <section id="gym">
+            <div class="workout">
+                <h2 id="gymWorkout">Gym Workouts</h2>
+                <p>Some days you just want to go to the gym and interact with fellow fitness people</p>
+                <button id="gymWorkoutButton">Press Here</button>
+            </div>
+        </section>
+        
+        <div id="resultSection">
+            <h2>Congratulations</h2>
+            <p>You have made the choice of workout now its time to do the work.</p>
+            <p id="result"></p>
+            <p>Go and get it!!</p>
+        </div>
+        <div class="resetSection">
+            <button id="resetButton">Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
